@@ -45,8 +45,8 @@
 //	A number like
 		397
 //	Means something different than it seems, as it is to the 16th power
-//			256  16  1
-		0x  3 	 9 	 7
+//		   256   16   1
+		0x  3    9    7
 
 //	Binary is also easy to convert to HEX
 //		group four binary digits(bits) from right to left
