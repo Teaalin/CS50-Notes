@@ -1,6 +1,6 @@
 
 //================================================================
-//						   Week 4 Shorts		               
+//			 Week 4 Shorts		               
 //================================================================
 //
 //    line   CONTENTS
@@ -22,8 +22,8 @@
 //	itterate from left to right, searching for the element
 
 //	pseudocode:
-Repeat, starting at the first element
-	if the first element is what you are looking for, stop
+	Repeat, starting at the first element
+		if the first element is what you are looking for, stop
 	otherwise, move to the next element
 	
 	11  23  8  14  30  9  6  17  22  28  25  15  7  10  19
