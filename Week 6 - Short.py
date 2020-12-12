@@ -1,39 +1,36 @@
 #================================================================
-#						   Week 6 Short		               
-#						      Python
+#			  Week 6 Short		               
+#			    Python
 #================================================================
 
 - python is very commonly used
 - versatile for making complex operations easier
-
 - can be run without compile
 - also there's other versions of python, this is python 3, python 2 is also popular
 
+- variables are easier
+- no semicolons
+- strings can be contained within "" or ''
 
-variables are "easier"
-no semicolons
-strings can be "" and ''
-
-## Conditionals
+#----------------------- Conditionals -----------------------
 
 if y < 43 or z == 15:
-	#code
+	# instead of ||, can just use "or"
 elif y > 43 or z == 16:
 	#code
 else:
 	#code
 
-
 if coursenum == 50:
     #code
 elif not coursenum == 51:
-    #code
+    # instead of != legit just have "not"
 
 #ternary statements are like:
 letters_only: True if input().isalpha() else False
 
 
-## Loops
+#----------------------- Loops -----------------------
 counter = 0
 while counter < 100:
     print(counter)
@@ -47,9 +44,8 @@ for i in range(0, 100, 2): #start, end, skip
     print(x)
 
 
-## arrays
-(more appropritely called a list)
-not fixed in size, easy to expandtabs
+#----------------------- arrays -----------------------
+#(more appropritely called a list) not fixed in size, easy to expandtabs
 
 nums = [] OR nums = list()
 nums = [1,2,3,4]
@@ -66,10 +62,10 @@ num.insert(4,5) #adds another element with 5 at the 4th postition
 nums[len(nums):] = [5] # num list from pos 4 attaches another list to it
 
 
-## tuples
-an ordered, immutable set of data. 
+#----------------------- tuples -----------------------
+""" an ordered, immutable set of data. 
 Great for associating collections of data, sort of like a struct in C,
-but where those values are unlikely to change.
+but where those values are unlikely to change. """
 
 # A list of tuples:
 presidents = [
@@ -84,8 +80,8 @@ for prez, year in predidents:
     # this is similar to C's print f, in that you put in values
 
 
-## dictionaries
-Close to a hash table. Associate indexs with keys rather than numbers.
+#----------------------- dictionaries -----------------------
+# Close to a hash table in concept. Associate indexs with keys rather than numbers.
 
 pizzas = {
     "sheese": 9,
@@ -127,8 +123,8 @@ print("A whole " + pie + " pizza costs $" + str(price) + ".")
 #deprecated in python 3 :c this is similar to how it works in godot
 print("A whole %s pizza costs $%2d." % (pie, price))
 
-## Functions
-dont have to specify return values, but need input values if used
+#----------------------- Functions -----------------------
+# dont have to specify return values, but need input values if used
 
 def main():
     crap()
@@ -145,7 +141,8 @@ def square(x):
     #return x * x    OR
     return x ** 2
 
-## OBJECTS
+       
+#----------------------- OBJECTS -----------------------
 """
 python is an object oriented lang
 "an object is sort of analogous to a C struct"
@@ -164,7 +161,6 @@ class student():
     
     # ALWAYS __init__
     def __init__(self, name, id):
-        #this sets these to whatever is passed in on creation I assume
         self.name = name
         self.id = id
     
@@ -181,11 +177,11 @@ jane.print()
 jane.changeID(11)
 jane.print()
 
-## Style
-good style is a must lol, or you die
+#----------------------- Style -----------------------
+# good style is a must lol, or you die
 
 
-## actually running python scripts
+#----------------------- actually running python scripts -----------------------
 # can be in py files but can also test short python snippets in the command line
 # just need to install python (I haven't yet)
 
